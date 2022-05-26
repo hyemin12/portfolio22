@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+}
+
+/* PC */
+.pc_container {
+  width: 1200px;
+  margin: 0 auto;
+}
+/* TABLET */
+
+/* MOBILE */
