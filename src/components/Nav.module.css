@@ -1,1 +1,29 @@
 /* NAV CSS */
+.nav_wrapper {
+  width: 200px;
+  padding: 20px 0;
+}
+.logo {
+  display: block;
+  padding: 30px 0;
+}
+.logo_img {
+  display: block;
+  width: 120px;
+  margin: 0 auto;
+}
+.nav {
+  padding: 20px 25px;
+}
+.title {
+  margin-bottom: 10px;
+}
+.item {
+  padding: 7px 3px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.item:hover {
+  /* background-color: #555; */
+  color: #fccb00;
+}
