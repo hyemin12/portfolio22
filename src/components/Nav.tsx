@@ -1,3 +1,5 @@
+import GitHubIcon from "@mui/icons-material/GitHub";
+import BookIcon from "@mui/icons-material/Book";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "./Nav.module.css";
@@ -16,7 +18,7 @@ const Nav = () => {
       "</전체>",
       "</리액트>",
       "</타입스크립트>",
-      "</바닐라 JS>",
+      "</바닐라 자바스크립트>",
       "</제이쿼리>",
       "</기타>",
     ],
@@ -28,10 +30,12 @@ const Nav = () => {
       </Link>
       <div className={styles.nav}>
         <h4 className={styles.title}>&#60;프로필&#62;</h4>
-        <span className={styles.item}>&#60;/고혜민&#62;</span>
+        <Link to="/profile">
+          <span className={styles.item}>&#60;/고혜민&#62;</span>
+        </Link>
       </div>
       {isEng ? (
-        <div>
+        <div className={styles.nav}>
           <h4>Portfolio</h4>
           <ul>
             {lists.eng.map((item) => (
@@ -53,6 +57,28 @@ const Nav = () => {
           </ul>
         </div>
       )}
+      <ul className={styles.social}>
+        <li>
+          <a
+            href="https://github.com/hyemin12"
+            target="_blank"
+            rel="noreferrer"
+            className={styles.social_icon}
+          >
+            <GitHubIcon fontSize="small" />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://hyemin-12.tistory.com/"
+            target="_blank"
+            rel="noreferrer"
+            className={styles.social_icon}
+          >
+            <BookIcon fontSize="small" />
+          </a>
+        </li>
+      </ul>
     </div>
   );
 };

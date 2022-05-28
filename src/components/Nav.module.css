@@ -1,6 +1,6 @@
 /* NAV CSS */
 .nav_wrapper {
-  width: 200px;
+  width: 250px;
   padding: 20px 0;
 }
 .logo {
@@ -13,7 +13,7 @@
   margin: 0 auto;
 }
 .nav {
-  padding: 20px 25px;
+  padding: 20px 40px;
 }
 .title {
   margin-bottom: 10px;
@@ -26,4 +26,33 @@
 .item:hover {
   /* background-color: #555; */
   color: #fccb00;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 50px;
+}
+.social_icon {
+  transition: 0.3s;
+}
+.social_icon:hover {
+  color: #fccb00;
+}
+
+/* THEMA CHANGE BUTTON */
+.btn_toggle_contents {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 30px;
+  background-color: #ccc;
+  position: relative;
+}
+.btn_toggle_input {
+  display: none;
+}
+.btn_toggle_label {
+  width: 100px;
+  height: 100%;
 }
