@@ -1,0 +1,27 @@
+.nav_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 2px solid #eee;
+}
+.nav {
+  display: flex;
+  gap: 20px;
+}
+.nav_item {
+  transition: 0.3s;
+}
+.nav_item:hover {
+  color: #fccb00;
+}
+.social {
+  display: flex;
+  gap: 20px;
+}
+.social_icon {
+  transition: 0.3s;
+}
+.social_icon:hover {
+  color: #fccb00;
+}

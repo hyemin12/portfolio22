@@ -1,7 +1,8 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
-import Nav from "../components/Nav";
-import ListTemplate from "./ListTemplate";
+import List from "../components/works/List";
+import Header from "../components/header/Header";
+
 import "../components/Layout.css";
 
 const Home = () => {
@@ -15,12 +16,13 @@ const Home = () => {
   return (
     <>
       <div
-        className={
-          (isDesktop ? "pc_container" : "mobile_contianer") + " container"
-        }
+      // className={
+      //   (isDesktop ? "pc_container" : "mobile_contianer") + " container"
+      // }
       >
-        <Nav />
-        <ListTemplate />
+        <Header />
+        {/* <Nav /> */}
+        <List />
       </div>
     </>
   );
