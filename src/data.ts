@@ -4,7 +4,7 @@ export const data = {
       filter: "react",
       id: "movie",
       img: "https://github.com/hyemin12/react-dashboard-app2/blob/master/public/img/portfolio/movieReact.png?raw=true",
-      title: "React Movie app",
+      title: "영화검색사이트",
       describtion: "",
       tool: [],
       skill: [],

@@ -1,18 +1,9 @@
+.list_wrapper {
+  padding: 0 20px;
+}
 .works {
   display: flex;
   flex-wrap: wrap;
-}
-.item {
-  width: 33.33%;
-}
-.img_wrapper {
-  width: 100%;
-  height: 100%;
-}
-.item_img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 /* filter */
