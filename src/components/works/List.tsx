@@ -1,14 +1,20 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import classNames from "classnames";
 
+import { data } from "../../data";
 import WorkItem from "./WorkItem";
 import styles from "./List.module.css";
 
 const ListTemplate = () => {
   const filters = ["All", "React", "Typescript", "Vanilla JS", "jQuery", "ect"];
+  const works = data.works;
   const [isActive, setIsActive] = useState(0);
   const handleActive = (i: number) => {
     setIsActive(i);
+  };
+  const handleFilter = (a: string) => {
+    // console.log(event.target);
+    console.log(a);
   };
   return (
     <div className={styles.list_wrapper}>
@@ -22,6 +28,7 @@ const ListTemplate = () => {
             key={a}
             onClick={() => {
               handleActive(i);
+              handleFilter(a);
             }}
           >
             {a}

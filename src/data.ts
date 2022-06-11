@@ -1,7 +1,7 @@
 export const data = {
   works: [
     {
-      filter: "react",
+      filter: "React",
       id: "movie",
       img: "https://github.com/hyemin12/react-dashboard-app2/blob/master/public/img/portfolio/movieReact.png?raw=true",
       title: "영화검색사이트",
@@ -13,13 +13,9 @@ export const data = {
       url: "https://react-movie-app-1f5ff8.netlify.app/",
     },
     {
-      filter: "vanillaJS",
+      filter: "Vanilla JS",
       id: "moment",
       img: "https://github.com/hyemin12/react-dashboard-app2/blob/master/public/img/portfolio/momentJS.png?raw=true",
-      imgArr: [
-        "https://github.com/hyemin12/vanillaJS-chrome-app/blob/master/img/%EB%B0%94%EB%8B%90%EB%9D%BCJS.png?raw=true",
-        "",
-      ],
       title: "크롬 앱",
       describtion:
         "노마드코더의 바닐라JS 크롬 앱을 클론 코딩하였다. 이름을 입력하면 사용이 가능하다. 날씨 정보, 랜덤으로 나오는 명언, 투두 작성이 가능하다.",
@@ -35,9 +31,9 @@ export const data = {
       url: "https://hyemin12.github.io/vanillaJS-chrome-app/",
     },
     {
-      filter: "typescript",
+      filter: "Typescript",
       id: "tsc-todo",
-      img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPsAAADJCAMAAADSHrQyAAAAY1BMVEX///+VlZWPj4/j4+O0tLT7+/ucnJyfn5/b29uSkpKkpKSrq6uurq7m5uZmZmaWlpbz8/OIiIjs7Ox5eXlkZGRsbGzNzc2BgYF0dHTU1NRvb2+7u7ve3t7w8PDCwsKKiopcXFxuhZvhAAAELklEQVR4nO3b25KiOhQG4HBIICgHUQgg6rz/U85Kgt3OlNDs6mrdrPm/Kwtzwc9KApIoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAU3LBu8/tR8k23i2IW77xcxXqRaGq332OPyRSOviCVjwrX5dfRg+CsH33af6Eqerhc/fLouN3n+cPqF10rdvombzVfLNHrsNrlT//ulZ8s+e+6uVM9Ivi2+f9NDcbfaq65pjdT3PzHX4aD2fNL/uUTc91+MR3+HEM2WX301yQzDyyTVcmyEXKLns+DeY2f353m2bBUYieW/aPpzk981TjZzmKzq7u9dfP8KSMbFtu2Xdrogepa8ssexU+Sfr35QhH35hZ9shnV3N89sg35ph94Xep+wkT+i7PMnu50KBknj1ZaJDpz+zM7u/IvtCAeXb9D2dfXfd/ea5D9pec1ysg+0IDZPefMc+/5LxeAdkXGjxmb3m9o/4vz3W5vU7Msq+su1/AYLQGvT77/TU9n70Hq7N/sU67RWuz31fnGUVfmX2sta86q51Gq7Lra+KjRy87r1dYlT3wVQ9YVX1t9oDbNOeszs5rmnP8usxCg/JedWYdXny9LtP7suuS1zTn+LprtX9OhVN0flX/XIed2Tt87/AMqy4e5vF5DKc5776JaiE6u5vbh3r30b21fYjRbgB8bEDQesdxrN9d8iWckwMAAAAAAAAA/A/FqqyEONtliTExJptez1S7sxBXpXr6nCfKbTDJy+lvg73yDa/u7ySbfYsng6GhfOpE0bpuv+tM5Y5XByVF3DQZfW6bQdtj16Zxixd9YeJsuFX0vUo2nF2Ux+NOiISyx4P9y+Pg12Z89uFg6HPSGbdaVQadvRSyPF7oQpxSERfVG8/8+8qbogra7MqWPD/6/VNT9uxIXdvog627NLE2969ESn0gLi5vPffvKsNrEz1m37vDU5+/dqkQp7PLHnXpeaCwl8N9vXbz2W91Ec9mT81VpMVobPb2mPd2bnjMHlWXarsbrsqbMLe57EUdKnE1tcu+M1XenX32KI7jiMbEsevMdl/clzdJPTmbyV7tjcxK6bLfSn/UZu/DQ0HjvWn7vt9y3eU49LPZWyp9LGx2WVDNE2rj+rzsCwZz3U1Wh11STNnrP7NfquLc9S572jSnU9Pk03hPeWQXmQkKW1MauWP3eI8rLtIc6CZus8cDdXCa+UV1CyWX7BU9uJnCPrZdhcjsTC4+s4tk6IQb7+pAiauCap4N1KZ12Wmev2x2vMuQerpsml+USzfD0CQ+SmVKKfa/anp+S4Q8hjQY3J2tM1LUxjakobAvGhoI291QHdn/84+p3SFd9efzOFVRjhEN/lSKKrUjIRIydfeyiA6JCzXsc7oIqbXt51oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+K7fw2lApeR5FTgAAAAASUVORK5CYII=",
+      img: "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FollCV%2FbtrEiwzPwYw%2Fm4aORom1lbpxrnd4NKpK70%2Fimg.png",
       title: "투두리스트",
       describtion: "",
       date: "2022-03-15",
@@ -47,7 +43,7 @@ export const data = {
       url: "https://effulgent-pastelito-13b327.netlify.app/",
     },
     {
-      filter: "react",
+      filter: "React",
       id: "twitter",
       img: "",
       title: "트위터 클론 코딩",
@@ -59,7 +55,7 @@ export const data = {
       url: "",
     },
     {
-      filter: "vanillaJS",
+      filter: "Vanilla JS",
       id: "starbucks",
       img: "https://github.com/hyemin12/react-dashboard-app2/blob/master/public/img/portfolio/starbucks.png?raw=true",
       title: "starbucks 2017",
@@ -72,7 +68,7 @@ export const data = {
       url: "https://starbucks-responsive-app-ee135b.netlify.app",
     },
     {
-      filter: "vanillaJS",
+      filter: "Vanilla JS",
       id: "wordle",
       img: "https://github.com/hyemin12/react-dashboard-app2/blob/master/public/img/portfolio/wordleJS.png?raw=true",
       title: "Wordle 게임",
@@ -88,7 +84,7 @@ export const data = {
       url: "https://hyemin12.github.io/vanillaJS-wordle-app/",
     },
     {
-      filter: "vanillaJS",
+      filter: "Vanilla JS",
       id: "paint",
       img: "https://github.com/hyemin12/react-dashboard-app2/blob/master/public/img/portfolio/paintJs.png?raw=true",
       title: "그림판",
@@ -105,7 +101,7 @@ export const data = {
       url: "https://hyemin12.github.io/vanillaJS-paint-app/",
     },
     {
-      filter: "jquery",
+      filter: "jQuery",
       id: "stranger",
       img: "https://github.com/hyemin12/react-dashboard-app2/blob/master/public/img/portfolio/stranger.png?raw=true",
       title: "비밀의 숲2 프로모션",
@@ -117,7 +113,7 @@ export const data = {
       url: "https://hyemin12.github.io/web-design-portfolio/01Stranger2/",
     },
     {
-      filter: "react",
+      filter: "React",
       id: "gomintalk",
       img: "https://github.com/hyemin12/react-dashboard-app2/blob/master/public/img/portfolio/gominTalk.png?raw=true",
       title: "리슨 클론 코딩",
@@ -156,7 +152,7 @@ export const data = {
       url: "https://github.com/hyemin12/react-dashboard-app2/blob/master/public/img/portfolio/travel2.jpg?raw=true",
     },
     {
-      filter: "jquery",
+      filter: "jQuery",
       id: "melon",
       img: "https://github.com/hyemin12/react-dashboard-app2/blob/master/public/img/portfolio/melon.png?raw=true",
       title: "음악스트리밍 멜론",
@@ -171,7 +167,7 @@ export const data = {
     {
       filter: "ect",
       id: "responsive1",
-      img: "",
+      img: "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FnNaYu%2FbtrEjMWeqmn%2FFY8MF38rQJ0JmgYh21e4Sk%2Fimg.png",
       title: "반응형 사이트 - readOnly",
       describtion: "",
       date: "2022-04-12",
@@ -183,7 +179,7 @@ export const data = {
     {
       filter: "ect",
       id: "responsive2",
-      img: "",
+      img: "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fc2Np9y%2FbtrEkpzHQeG%2FfmDxkuNz8rnNygRWnfhSb1%2Fimg.png",
       title: "반응형 사이트 - massively",
       describtion: "",
       date: "2022-04-12",
@@ -195,7 +191,7 @@ export const data = {
     {
       filter: "ect",
       id: "responsive3",
-      img: "",
+      img: "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkHK94%2FbtrEiOfVoFZ%2FKpWkikhALdpeBlVfyRFLr1%2Fimg.png",
       title: "반응형 사이트 - funny Flakes",
       describtion: "",
       date: "2022-04-10",

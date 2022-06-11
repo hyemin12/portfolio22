@@ -1,14 +1,30 @@
 import { Link } from "react-router-dom";
 import { data } from "../../data";
-
 import AddIcon from "@mui/icons-material/Add";
 import LanguageIcon from "@mui/icons-material/Language";
 import styles from "./WorkItem.module.css";
 
+interface WorkProps {
+  works: [
+    {
+      id: string;
+      title: string;
+      img: string;
+      filter: string;
+      describtion: string;
+      date: string;
+      tool: string[];
+      features: string[];
+      git: string;
+      url: string;
+    }
+  ];
+}
 const WorkItem = () => {
+  const works = data.works;
   return (
     <>
-      {data.works.map((work) => (
+      {works.map((work) => (
         <li key={work.id} className={styles.item}>
           <div className={styles.img_wrapper}>
             <img src={work.img} alt={work.title} className={styles.item_img} />
