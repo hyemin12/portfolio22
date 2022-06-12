@@ -3,6 +3,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import WorkDetail from "./components/works/WorkDetail";
 import ProfileTemplate from "./pages/ProfileTemplate";
+import Layout from "./components/Layout";
+import Header from "./components/header/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (

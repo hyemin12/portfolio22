@@ -4,8 +4,11 @@
 
 /* PC */
 .pc_container {
-  margin: 0 auto;
+  min-width: 768px;
 }
 /* TABLET */
 
 /* MOBILE */
+.mobile_container {
+  max-width: 767px;
+}
