@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import classNames from "classnames";
 
 import { data } from "../../data";
@@ -7,15 +7,21 @@ import styles from "./List.module.css";
 
 const ListTemplate = () => {
   const filters = ["All", "React", "Typescript", "Vanilla JS", "jQuery", "ect"];
-  const works = data.works;
+  const [state, setState] = useState(data.works);
   const [isActive, setIsActive] = useState(0);
   const handleActive = (i: number) => {
     setIsActive(i);
   };
-  const handleFilter = (a: string) => {
-    // console.log(event.target);
-    console.log(a);
-  };
+  function handleFilter(a: string) {
+    const init = data.works;
+    if (a === "All") {
+      setState(init);
+    } else if (a) {
+      const newArr = init.filter((item) => item.filter === a);
+      setState(newArr);
+    }
+  }
+  useEffect(() => {}, [state]);
   return (
     <div className={styles.list_wrapper}>
       <ul className={styles.filters}>
@@ -36,7 +42,10 @@ const ListTemplate = () => {
         ))}
       </ul>
       <ul className={styles.works}>
-        <WorkItem />
+        {state &&
+          state.map((work) => {
+            return <WorkItem {...work} key={work.id} />;
+          })}
       </ul>
     </div>
   );
