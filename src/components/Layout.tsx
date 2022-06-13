@@ -2,7 +2,7 @@ import React from "react";
 import { useMediaQuery } from "react-responsive";
 import Footer from "./Footer";
 import Header from "./header/Header";
-import styles from "./Layout.module.css";
+import "./Layout.css";
 
 // const isTablet = useMediaQuery({
 //   query: "(min-width:768px) and (max-width:1023px)",
