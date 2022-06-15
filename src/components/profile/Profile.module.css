@@ -1,2 +1,43 @@
+.inner {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.wrapper {
+  padding: 30px 0;
+  border-top: 1px solid #eee;
+}
+.title {
+  font-size: 1.3em;
+  margin-bottom: 30px;
+}
 .circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  background-color: #555;
+  border-radius: 50%;
+  text-align: center;
+}
+.skill_wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.info_item {
+  display: flex;
+  gap: 10px;
+  /* width: 30%; */
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+}
+.text {
+  width: 60px;
+  font-size: 0.8em;
+  text-align: center;
 }
