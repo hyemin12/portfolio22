@@ -11,15 +11,10 @@
   font-size: 1.3em;
   margin-bottom: 30px;
 }
-.circle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 150px;
-  height: 150px;
-  background-color: #555;
-  border-radius: 50%;
-  text-align: center;
+.typeit {
+  width: 100%;
+  padding: 40px 0;
+  font-size: 2em;
 }
 .skill_wrapper {
   display: flex;

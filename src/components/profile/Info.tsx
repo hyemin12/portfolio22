@@ -1,4 +1,3 @@
-import PersonIcon from "@mui/icons-material/Person";
 import styles from "./Profile.module.css";
 
 const Info = () => {
