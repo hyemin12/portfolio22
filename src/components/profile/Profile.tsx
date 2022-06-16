@@ -2,7 +2,7 @@ import Info from "./Info";
 import Skills from "./Skills";
 
 import styles from "./Profile.module.css";
-import Education from "./Education";
+import Experience from "./Experience";
 import TypeIt from "typeit-react";
 
 const Profile = () => {
@@ -10,23 +10,20 @@ const Profile = () => {
     <div className={styles.inner}>
       <div>
         <div className={styles.typeit}>
-          <TypeIt
-            getBeforeInit={(instance) => {
-              instance
-                .type("안녕하세요. 개발자")
-                .pause(750)
-                .delete(4)
-                .pause(500)
-                .type("ex!");
-
-              // Remember to return it!
-              return instance;
-            }}
-          />
+          <div>
+            <TypeIt
+              options={{
+                strings: ["안녕하세요.", "프론트엔드 개발자 고혜민입니다."],
+                speed: 50,
+                waitUntilVisible: true,
+                startDelay: 100,
+              }}
+            />
+          </div>
         </div>
         <Info />
         <Skills />
-        <Education />
+        <Experience />
       </div>
     </div>
   );

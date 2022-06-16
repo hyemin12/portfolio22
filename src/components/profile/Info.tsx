@@ -4,7 +4,7 @@ const Info = () => {
   return (
     <div className={styles.wrapper}>
       <h4 className={styles.title}>About Me</h4>
-      <ul className={styles.skill_wrapper}>
+      <ul className={styles.info_wrapper}>
         <li className={styles.info_item}>
           <span>👩</span>
           <p>1994.12.31</p>
