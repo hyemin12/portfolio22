@@ -42,18 +42,7 @@ export const data = {
       git: "https://github.com/hyemin12/typescript-todo-app",
       url: "https://effulgent-pastelito-13b327.netlify.app/",
     },
-    {
-      filter: "React",
-      id: "twitter",
-      img: "",
-      title: "트위터 클론 코딩",
-      describtion: "",
-      date: "2021-04-25",
-      tool: [],
-      features: [],
-      git: "https://github.com/hyemin12/react-firebase-twitter",
-      url: "",
-    },
+
     {
       filter: "Vanilla JS",
       id: "starbucks",
@@ -84,6 +73,22 @@ export const data = {
       url: "https://hyemin12.github.io/vanillaJS-wordle-app/",
     },
     {
+      filter: "React",
+      id: "dashboard",
+      img: "https://github.com/hyemin12/react-dashboard-app2/blob/master/public/img/portfolio/dashboardReact.png?raw=true",
+      title: "대시보드",
+      describtion:
+        "다양한 API를 통해 정보를 가져오고, 해야할 일 목록 작성, 음악 플레이 등 다양한 작업을 할 수 있는 대쉬보드다. 개인 포트폴리오 페이지에서 포트폴리오도 확인 가능하다 ",
+      date: "2022-03-20",
+      tool: [],
+      features: [
+        "1. 키보드를 누르면 해당 값이 칸에 입력되고, 제출 시 채점됨 ",
+        "2. 밝은 모드 / 어두운 모드로 모드 선택 가능",
+      ],
+      git: "https://github.com/hyemin12/react-dashboard-app2",
+      url: "https://lucid-yonath-d614bb.netlify.app/",
+    },
+    {
       filter: "Vanilla JS",
       id: "paint",
       img: "https://github.com/hyemin12/react-dashboard-app2/blob/master/public/img/portfolio/paintJs.png?raw=true",
@@ -100,6 +105,7 @@ export const data = {
       git: "https://github.com/hyemin12/vanillaJS-paint-app",
       url: "https://hyemin12.github.io/vanillaJS-paint-app/",
     },
+
     {
       filter: "jQuery",
       id: "stranger",
@@ -112,6 +118,18 @@ export const data = {
       git: "https://github.com/hyemin12/web-design-portfolio/01Stranger2/",
       url: "https://hyemin12.github.io/web-design-portfolio/01Stranger2/",
     },
+    // {
+    //   filter: "React",
+    //   id: "twitter",
+    //   img: "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FZhFQN%2FbtrEZedyP5T%2F9ANH2jcfgq4kdbXA98FKQK%2Fimg.png",
+    //   title: "트위터 클론 코딩",
+    //   describtion: "",
+    //   date: "2021-04-25",
+    //   tool: [],
+    //   features: [],
+    //   git: "https://github.com/hyemin12/react-firebase-twitter",
+    //   url: "",
+    // },
     {
       filter: "React",
       id: "gomintalk",
