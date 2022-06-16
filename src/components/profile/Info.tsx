@@ -11,7 +11,7 @@ const Info = () => {
         </li>
         <li className={styles.info_item}>
           <span>🏠</span>
-          <p>경기도 수원시 권선구 금곡동</p>
+          <p>경기도 수원시</p>
         </li>
         <li className={styles.info_item}>
           <span>📧</span>
@@ -21,7 +21,7 @@ const Info = () => {
           <span>👩‍🎓</span>
           <div>
             <p>인천가톨릭대학교 졸업</p>
-            <p>환경디자인학과</p>
+            <p className={styles.text_small}>환경디자인학과</p>
           </div>
         </li>
         <li className={styles.info_item}>
