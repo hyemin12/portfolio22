@@ -17,7 +17,7 @@ const WorkDetail = () => {
           <img src={work.img} alt={work.title} />
         </div>
         <h1 className={styles.title}>{work.title}</h1>
-        <div className={styles.pd_10}>
+        <div className={styles.pd_15}>
           <p>
             <span className={styles.bold}>Project host: </span>
             Hyemin
@@ -53,13 +53,27 @@ const WorkDetail = () => {
             </p>
           )}
         </div>
-        <div className={styles.pd_10}>
+
+        <div className={styles.pd_15}>
           <h2 className={styles.desc}>describtion</h2>
           <p>{work.describtion}</p>
-          <h3 className={styles.subtitle}>기능</h3>
-          {work.features.map((text) => (
-            <p key={text}>{text}</p>
-          ))}
+          <div className={styles.pd_15}>
+            <h3 className={styles.subtitle}>기능</h3>
+            {work.features.map((text) => (
+              <p key={text}>{text}</p>
+            ))}
+          </div>
+
+          <div>
+            <h3 className={styles.subtitle}>package</h3>
+            <div className={styles.tools}>
+              {work.tool.map((text) => (
+                <p className={styles.tool} key={text}>
+                  #{text}
+                </p>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </div>

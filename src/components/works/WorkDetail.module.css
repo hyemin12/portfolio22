@@ -14,10 +14,12 @@
 }
 
 .inner {
+  max-width: 800px;
   height: 100%;
   background-color: #fff;
   padding: 30px 50px;
   overflow-y: scroll;
+  margin: 0 auto;
 }
 .image {
   width: 100%;
@@ -56,9 +58,20 @@
 .subtitle {
   padding: 20px 0 10px 0;
 }
-.pd_10 {
-  padding: 10px 0;
+.tools {
+  display: flex;
+  gap: 15px;
 }
-.mb10 {
+.tool {
+  padding: 5px 12px;
+  background-color: #ffefb0;
+  /* background-color: #fccb00; */
+  border-radius: 10px;
+  font-size: 0.9em;
+}
+.pd_15 {
+  padding: 15px 0;
+}
+.mb_10 {
   margin-bottom: 10px;
 }

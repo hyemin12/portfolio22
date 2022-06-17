@@ -6,7 +6,15 @@
   flex-wrap: wrap;
   padding-bottom: 30px;
 }
-
+@media screen and (min-width: 1024px) {
+  .works {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
 /* filter */
 .filters {
   display: flex;
