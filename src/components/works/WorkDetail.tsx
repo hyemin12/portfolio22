@@ -57,12 +57,20 @@ const WorkDetail = () => {
         <div className={styles.pd_15}>
           <h2 className={styles.desc}>describtion</h2>
           <p>{work.describtion}</p>
-          <div className={styles.pd_15}>
-            <h3 className={styles.subtitle}>기능</h3>
-            {work.features.map((text) => (
-              <p key={text}>{text}</p>
+          {work.features &&
+            work.features.map((text) => (
+              <div className={styles.pd_15}>
+                <h3 className={styles.subtitle}>기능</h3>
+                <p key={text}>{text}</p>
+              </div>
             ))}
-          </div>
+          {work.ect && (
+            <div className={styles.pd_15}>
+              <a href={work.ect} target="_blank" rel="noreferrer">
+                <p className={styles.link}>🔍 참고 이미지 및 원본 사이트</p>
+              </a>
+            </div>
+          )}
 
           <div>
             <h3 className={styles.subtitle}>package</h3>

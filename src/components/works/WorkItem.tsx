@@ -11,9 +11,10 @@ export type WorkType = {
   describtion: string;
   date: string;
   tool: string[];
-  features: string[];
+  features?: string[] | undefined;
   git?: string | undefined;
   url: string;
+  ect?: string | undefined;
 };
 
 const WorkItem = (work: WorkType) => {
