@@ -6,8 +6,8 @@ import styles from "./WorkItem.module.css";
 export type WorkType = {
   filter: string;
   id: string;
-  img: string;
   title: string;
+  img?: string;
   describtion: string;
   date: string;
   tool: string[];
@@ -21,7 +21,13 @@ const WorkItem = (work: WorkType) => {
     <>
       <li key={work.id} className={styles.item}>
         <div className={styles.img_wrapper}>
-          <img src={work.img} alt={work.title} className={styles.item_img} />
+          <img
+            src={
+              work.img ? `/assets/${work.img}.png` : `/assets/${work.id}.png`
+            }
+            alt={work.title}
+            className={styles.item_img}
+          />
         </div>
 
         <div className={styles.item_hover}>

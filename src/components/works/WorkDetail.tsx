@@ -14,7 +14,7 @@ const WorkDetail = () => {
 
       <div className={styles.inner}>
         <div className={styles.image}>
-          <img src={work.img} alt={work.title} />
+          <img src={`/assets/${work.id}.png`} alt={work.title} />
         </div>
         <h1 className={styles.title}>{work.title}</h1>
         <div className={styles.pd_15}>
