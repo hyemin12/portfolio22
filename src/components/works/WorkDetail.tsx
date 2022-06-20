@@ -57,13 +57,14 @@ const WorkDetail = () => {
         <div className={styles.pd_15}>
           <h2 className={styles.desc}>describtion</h2>
           <p>{work.describtion}</p>
-          {work.features &&
-            work.features.map((text) => (
-              <div className={styles.pd_15}>
-                <h3 className={styles.subtitle}>기능</h3>
+          {work.features && (
+            <div className={styles.pd_15}>
+              <h3 className={styles.subtitle}>기능</h3>
+              {work.features.map((text) => (
                 <p key={text}>{text}</p>
-              </div>
-            ))}
+              ))}
+            </div>
+          )}
           {work.ect && (
             <div className={styles.pd_15}>
               <a href={work.ect} target="_blank" rel="noreferrer">
