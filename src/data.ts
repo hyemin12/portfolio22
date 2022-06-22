@@ -144,7 +144,11 @@ export const data = {
         "비밀의 숲2 방영 기념 프로모션 페이지를 제작하였다. jQery 풀페이지 플러그인을 사용하여 제작하였고, 비밀의 숲만의 미스테리한, 어두운 분위기를 디자인에 녹이려고 하였다.",
       date: "2020-08-15",
       tool: ["HTML", "CSS", "jQuery", "git-pahge", "Photoshop"],
-      features: [],
+      features: [
+        "1. 등장인물 소개",
+        "2. 관련 사진 및 동영상 확인",
+        "3. 시즌 줄거리 확인",
+      ],
       git: "https://github.com/hyemin12/web-design-portfolio/01Stranger2/",
       url: "https://hyemin12.github.io/web-design-portfolio/01Stranger2/",
     },
@@ -166,8 +170,11 @@ export const data = {
       describtion:
         "요즘 뜨고 있는 Lysn bubble을 클론코딩하였다. 모바일 버전만 제공하기때문에, 550px 이상에서는 화면을 줄여달라는 화면만 표시된다. scss 패키지를 이용해서 css를 작성하였다. 프로필창에서 친구를 클릭하면 프로필 이미지 화면이 나타나고, 채팅을 보낼 수 있다.",
       date: "2022-05-20",
-      tool: ["React", "Sass", "netlify"],
-      features: [],
+      tool: ["React", "Sass", "react-live-clock", "netlify"],
+      features: [
+        "1. 내 프로필과 친구들 목록 확인",
+        "2. 채팅방 - 친구와 주고받은 메세지 확인",
+      ],
       git: "https://github.com/hyemin12/gomin-talk-app",
       url: "https://wizardly-hermann-7fecb3.netlify.app/",
     },
@@ -179,7 +186,6 @@ export const data = {
         "가정의 달을 맞아 롯데카드 기프트카드 판매 촉진 및 이벤트 홍보의 프로모션 페이지를 디자인하였다. 아기자기한 일러스트 이미지를 사용하여 사랑스러운 분위기를 표현하였으며, 롯데카드에서 자주 사용하는 핑크-블루 톤과 캐릭터를 사용하여 롯데카드 배너 느낌을 연출하였다.",
       date: "2020-05-27",
       tool: ["Photoshop"],
-      features: [],
       url: "https://github.com/hyemin12/react-dashboard-app2/blob/master/public/img/portfolio/lottecard2.jpg?raw=true",
     },
     {
@@ -190,7 +196,6 @@ export const data = {
         "여행 SNS 공유 이벤트 참여 촉진 및 홍보의 프로모션 페이지를 디자인하였다. 전체적인 컨셉을 부다페스트로 설정하여 부다페스트 관련 이미지들을 사용하였고,그랜드 부다페스트호텔 포스터에 사용된 핑크-보라계열 색을 사용하여 부다페스트 느낌을 연출하였다.",
       date: "2020-03-20",
       tool: ["Photoshop"],
-      features: [],
       url: "https://github.com/hyemin12/react-dashboard-app2/blob/master/public/img/portfolio/travel2.jpg?raw=true",
     },
     {
