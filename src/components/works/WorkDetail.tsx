@@ -8,11 +8,14 @@ const WorkDetail = () => {
   const work = data.works.filter((item) => item.id === id)[0];
   return (
     <div className={styles.container}>
-      <Link to="/">
+      {/* <Link to="/">
         <CloseIcon fontSize="large" className={styles.close_btn} />
-      </Link>
+      </Link> */}
 
       <div className={styles.inner}>
+        <Link to="/">
+          <CloseIcon fontSize="large" className={styles.close_btn} />
+        </Link>
         <div className={styles.image}>
           <img src={`/assets/${work.id}.png`} alt={work.title} />
         </div>

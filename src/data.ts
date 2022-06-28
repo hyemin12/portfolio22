@@ -133,8 +133,8 @@ export const data = {
       date: "2022-06-19",
       tool: ["react", "Typescript", "typeit", "netlify"],
       features: [],
-      git: "https://github.com/hyemin12/responsive-webstie-funnyFlakes",
-      url: "https://hyemin12.github.io/responsive-webstie-funnyFlakes/",
+      git: "https://github.com/hyemin12/typescript-my-portfolio",
+      url: "https://hm-tsc-typescript.netlify.app/",
     },
     {
       filter: "jQuery",

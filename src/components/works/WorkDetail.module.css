@@ -6,7 +6,7 @@
   overflow: hidden;
 }
 .close_btn {
-  color: #fff;
+  color: #ffffff;
   position: fixed;
   top: 1%;
   right: 2%;
@@ -18,9 +18,10 @@
   height: 100%;
   background-color: #fff;
   padding: 30px 50px;
-  overflow-y: scroll;
   margin: 0 auto;
+  overflow-y: scroll;
 }
+
 .image {
   width: 100%;
   overflow: hidden;
