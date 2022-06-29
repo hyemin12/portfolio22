@@ -129,7 +129,8 @@ export const data = {
       filter: "Typescript",
       id: "mysite2",
       title: "포트폴리오 사이트",
-      describtion: "",
+      describtion:
+        "작업 프로젝트와 프로필만 확인할 수 있는 프로젝트 사이트이다. 필터 기능을 사용하여 라이브러리별로 모아서 확인 할 수 있으며, 프로필 페이지에서는 간단한 프로필을 확인 할 수 있다.",
       date: "2022-06-19",
       tool: ["react", "Typescript", "typeit", "netlify"],
       features: [
