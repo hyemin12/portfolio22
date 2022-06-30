@@ -261,9 +261,10 @@ export const data = {
       id: "responsive4",
       img: "responsive4-1",
       title: "반응형 사이트 - forty",
-      describtion: "forty 회사의 메인페이지를 마크업하였다.",
+      describtion:
+        "forty 회사의 사이트를 마크업하였다. 서브페이지를 각각의 별도의 페이지로 분리해서 만들었고, 각각 페이지별로 css를 작성하였다.",
       date: "2022-06-29",
-      tool: ["HTML", "CSS", "Javascript", "git-pahge"],
+      tool: ["HTML", "CSS", "git-pahge"],
       ect: "https://html5up.net/forty",
       git: "https://github.com/hyemin12/responsive-webstie-forty/",
       url: "https://hyemin12.github.io/responsive-webstie-forty/",
