@@ -105,3 +105,21 @@
   font-size: 0.9em;
   font-weight: normal;
 }
+
+/* Links */
+.link_wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 0 20px;
+}
+.link_item {
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.link_item:hover {
+  background-color: #ffffbb;
+  /* color: #fccb00; */
+}

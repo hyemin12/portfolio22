@@ -3,6 +3,7 @@ import Skills from "./Skills";
 
 import styles from "./Profile.module.css";
 import Experience from "./Experience";
+import Links from "./Links";
 import TypeIt from "typeit-react";
 import classNames from "classnames";
 
@@ -25,6 +26,7 @@ const Profile = () => {
         <Info />
         <Skills />
         <Experience />
+        <Links />
       </div>
     </div>
   );
