@@ -1,5 +1,3 @@
-import GitHubIcon from "@mui/icons-material/GitHub";
-import BookIcon from "@mui/icons-material/Book";
 import styles from "./Profile.module.css";
 
 const Links = () => {
