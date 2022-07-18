@@ -4,10 +4,18 @@ export const data = {
       filter: "React",
       id: "movie",
       title: "영화검색사이트",
-      describtion:
-        "imdb api를 이용해서 인기 영화, 상영예정 영화, 평점이 높은 영화목록을 가져오고 영화 상세정보를 볼 수 있는 프로젝트이다.",
+      describtion: [
+        "imdb api를 이용해서 인기 영화, 상영예정 영화, 평점이 높은 영화목록을 가져오고 영화 상세정보를 볼 수 있는 프로젝트입니다.",
+      ],
       date: "2022-03-08",
-      tool: ["REACT", "imdb API", "Sass", "netlify"],
+      tool: [
+        "REACT",
+        "react-router-dom",
+        "imdb API",
+        "axios",
+        "Sass",
+        "netlify",
+      ],
       features: [
         "1. 인기 영화, 현재 상영중인 영화, 개봉 예정 영화, 높은 평점 영화 정보 가져오기",
         "2. 해당 영화 제목 클릭 시 영화 상세정보 페이지로 이동하기",
@@ -19,8 +27,10 @@ export const data = {
       filter: "Vanilla JS",
       id: "moment",
       title: "크롬 앱",
-      describtion:
-        "노마드코더의 바닐라JS 크롬 앱을 클론 코딩하였다. 이름을 입력하면 사용이 가능하다. 날씨 정보, 랜덤으로 나오는 명언, 투두 작성이 가능하다.",
+      describtion: [
+        "노마드코더의 바닐라JS 크롬 앱을 클론 코딩한 프로젝트입니다. 크롬앱을 처음 사용하는 이용자는 이름을 입력하면 사용이 가능하며 날씨 정보, 랜덤으로 나오는 명언, 투두리스트가 화면에 출력됩니다.",
+        "새로고침을 했을 때, 데이터가 리셋되지 않도록 데이터를 로컬스토리지에 저장하고, 가져오고, 삭제하는 방법에 대해 공부하였습니다.",
+      ],
       date: "2022-02-21",
       tool: ["HTML", "CSS", "Javascript", "open weather api", "git-pahge"],
       features: [
@@ -36,13 +46,18 @@ export const data = {
       filter: "Typescript",
       id: "tsc-todo",
       title: "투두리스트",
-      describtion: "타입스크립트를 공부하고 처음으로 진행한 프로젝트이다. ",
+      describtion: [
+        "타입스크립트를 공부하고 처음으로 진행한 프로젝트입니다.",
+        "액션 생성 함수를 작성하는 방법, 액션 객체의 타입을 지정하는 방법 등 타입스크립트 리덕스에 대하여 공부하였습니다. 또한 store 형성할 때 createStore() 가 오류가 생겨, 새롭게 변경된 configureStore() 훅에 대해 공부하였습니다.",
+        "혼자서 타입스크립트 프로젝트를 제작해서 많이 어려웠지만 문제를 해결하는 방법, 타입스크립트 기초에 대해 공부할 수 있어서 좋았습니다.",
+      ],
       date: "2022-03-15",
       tool: ["React", "Typescript", "Redux", "Sass", "netlify"],
       features: [
         "1. 할일 등록 및 삭제 기능",
         "2. 남은 할일 갯수 확인",
         "3. 현재 날짜 확인",
+        "4. 할일 완료 여부 (체크박스)",
       ],
       git: "https://github.com/hyemin12/typescript-todo-app",
       url: "https://hm-tsc-typescript.netlify.app",
@@ -52,8 +67,9 @@ export const data = {
       filter: "Vanilla JS",
       id: "starbucks",
       title: "starbucks 2017",
-      describtion:
-        "스타벅스 홈페이지를 클론 코딩하였다. 메인페이지와 로그인페이지로 이루어져 있다. ",
+      describtion: [
+        "스타벅스 홈페이지를 클론 코딩한 프로젝트입니다. 패스트 캠퍼스 프론트 엔드 강의를 수강하며 제작한 홈페이지이며, 메인페이지와 로그인페이지로 이루어져 있습니다. 카카오톡이나 다른 어플로 공유했을 때, 사이트에 대한 정보를 담을 수 있는 open graph에 대하여 공부하였습니다.",
+      ],
       date: "2021-05-22",
       tool: [
         "HTML",
@@ -64,7 +80,7 @@ export const data = {
         "lodash",
         "GSAP & ScrollToPlugin",
         "scrollmagic",
-        "git-pahge",
+        "git-page",
       ],
       git: "https://github.com/hyemin12/vanilla-starbucks-app",
       url: "https://starbucks-responsive-app-ee135b.netlify.app",
@@ -74,8 +90,10 @@ export const data = {
       id: "wordle",
       img: "wordle-1",
       title: "Wordle 게임",
-      describtion:
-        "요즘 인기가 많은 단어를 맞추는 게임 wordle을 자바스크립트로만으로 구현한 프로젝트. 게임방법은 단어를 입력하고, Enter 버튼을 눌러 제출하기. 제출 시 각 타일의 색상이 변경되어 정답 단어에 얼마나 가까웠는지를 보여줌",
+      describtion: [
+        "요즘 인기가 많은 단어를 맞추는 게임 wordle을 자바스크립트로만으로 구현한 프로젝트입니다. 게임방법은 단어를 입력하고, Enter 버튼을 눌러 제출하면 됩니다. 제출 시 정답 유무를 확인하고, 오답일 경우 각 타일의 색상이 변경되어 정답 단어에 얼마나 가까웠는지를 보여줍니다.",
+        "유투브 코딩애플의 wordle 게임 영상을 보고 클론 코딩으로 시작한 프로젝트입니다. 여러 기능을 추가하고 싶어 코드를 작성했지만 제대로 작동하지 않아 해결방법을 찾던 도중 한 개발자가 블로그에 wordle 게임을 직접 구현한 코드를 공유한 것을 보았고, 이를 제 프로젝트에 적용시켰습니다. wordle 프로젝트를 만들며, 몰랐던 기능들과 해결방법에 대해 알 수 있어서 좋았고, 더 나은 코드를 작성하는 방법에 대해 공부 하는 시간을 가졌습니다.",
+      ],
       date: "2022-03-20",
       tool: ["HTML", "CSS", "Javascript", "git-pahge"],
       features: [
@@ -89,11 +107,16 @@ export const data = {
       filter: "React",
       id: "dashboard",
       title: "대시보드",
-      describtion:
-        "다양한 API를 통해 정보를 가져오고, 해야할 일 목록 작성, 음악 플레이 등 다양한 작업을 할 수 있는 대쉬보드다. 또한 개인 포트폴리오 페이지에서 포트폴리오도 확인 가능하며, 좌측 이름 옆 화살표를 클릭하면 프로필 확인이 가능하다.",
+      describtion: [
+        "다양한 API를 통해 정보를 가져오고, 해야할 일 목록 작성, 음악 플레이 등 다양한 작업을 할 수 있는 대쉬보드 페이지와 개인 포트폴리오를 확인할 수 있는 페이지, 좌측 이름 옆 화살표를 클릭하면 프로필 확인이 가능한 프로젝트입니다.",
+        "이번 프로젝트를 하며 react의 다양한 라이브러리들에 대해 알게되었고, redux store 를 활용하여 state를 주고 받는 방법에 대해 학습하게 되었습니다. 다양한 API를 사용하는 방법과 커스텀하는 방법에 대하여 공부하였습니다. 하지만 xml 형식의 데이터를 가져오는데 어려움을 겪었습니다. xml 형태의 데이터를 받아오는 방법을 해결하려 react-xml-parser 등과같은 라이브러리를 사용하였지만 이를 해결할 수 는 없었습니다. 또한 SameSite 쿠키 관련 오류를 해결하려고 하였으나 서버에 대해 지식이 부족하여 해결하지 못하였습니다.",
+      ],
       date: "2022-03-20",
       tool: [
         "React",
+        "react-router-dom",
+        "redux",
+        "axios",
         "react-h5-audio-player",
         "@fullcalendar/react",
         "open weather api",
@@ -113,8 +136,9 @@ export const data = {
       filter: "Vanilla JS",
       id: "paint",
       title: "그림판",
-      describtion:
-        "노마드코더의 바닐라JS 그림판을 클론 코딩하였다. 캔버스에서 그림을 그릴 수 있으며, 이미지를 저장할 수 있다. ",
+      describtion: [
+        "노마드코더의 바닐라JS 그림판을 클론 코딩한 프로젝트입니다. 캔버스에서 그림을 그릴 수 있으고, 이미지를 저장할 수 있습니다. ",
+      ],
       date: "2022-02-22",
       tool: ["HTML", "CSS", "Javascript", "Canvas events", "git-pahge"],
       features: [
@@ -129,8 +153,9 @@ export const data = {
       filter: "Typescript",
       id: "mysite2",
       title: "포트폴리오 사이트",
-      describtion:
-        "작업 프로젝트와 프로필만 확인할 수 있는 프로젝트 사이트이다. 필터 기능을 사용하여 라이브러리별로 모아서 확인 할 수 있으며, 프로필 페이지에서는 간단한 프로필을 확인 할 수 있다.",
+      describtion: [
+        "타입스크립트와 리액트로 작성된 포트폴리오 프로젝트입니다. 2020년도부터 작업했던 개인 프로젝트들과 간단한 프로필 및 자기 소개서를 확인 할 수 있습니다. 각각의 프로젝트에 대한 설명과 소스코드, 배포 사이트의 정보를 확인할 수 있습니다. 데이터를 가져와 사용하는 연습을 하기 위해 src 폴더에 데이터 파일을 만들었고, 데이터를 가져와 화면에 출력하는 연습을 하였습니다. 또한 css 모듈을 통해 컴포넌트 스타일링을 관리하여 컴포넌트별 CSS를 보기 편하게 작성하고자 하였습니다.",
+      ],
       date: "2022-06-19",
       tool: ["react", "Typescript", "typeit", "netlify"],
       features: [
@@ -144,8 +169,9 @@ export const data = {
       filter: "jQuery",
       id: "stranger",
       title: "비밀의 숲2 프로모션",
-      describtion:
-        "비밀의 숲2 방영 기념 프로모션 페이지를 제작하였다. jQery 풀페이지 플러그인을 사용하여 제작하였고, 비밀의 숲만의 미스테리한, 어두운 분위기를 디자인에 녹이려고 하였다.",
+      describtion: [
+        "비밀의 숲2 방영 기념 프로모션 페이지를 제작하였습니다. jQery 풀페이지 플러그인을 사용하여 제작하였고, 비밀의 숲만의 미스테리한, 어두운 분위기를 디자인에 녹이고자 하였습니다.",
+      ],
       date: "2020-08-15",
       tool: ["HTML", "CSS", "jQuery", "git-pahge", "Photoshop"],
       features: [
@@ -160,8 +186,9 @@ export const data = {
       filter: "React",
       id: "twitter",
       title: "트위터 클론 코딩",
-      describtion:
-        "리액트와 파이어베이스를 이용하여 만든 트위터 클론 프로젝트이다. 소셜(구글, 깃허브)로 회원가입 로그인이 가능하며, 게시물을 작성할 때 사진 첨부 및 사진 미리보기가 가능하다. 현재는 router 오류로 인해 배포된 페이지를 확인할 수 없다.",
+      describtion: [
+        "리액트와 파이어베이스를 이용하여 만든 트위터 클론 프로젝트입니다. 소셜(구글, 깃허브)로 회원가입 로그인이 가능하며, 게시물을 작성할 때 사진 첨부 및 사진 미리보기가 가능합니다. 현재는 배포페이지 router 오류로 인해 배포된 페이지를 확인할 수 없습니다.",
+      ],
       date: "2021-04-25",
       tool: ["react", "firebase"],
       features: [
@@ -176,8 +203,9 @@ export const data = {
       filter: "React",
       id: "gomintalk",
       title: "리슨 클론 코딩",
-      describtion:
-        "요즘 뜨고 있는 Lysn bubble을 클론코딩하였다. 모바일 버전만 제공하기때문에, 550px 이상에서는 화면을 줄여달라는 화면만 표시된다. scss 패키지를 이용해서 css를 작성하였다. 프로필창에서 친구를 클릭하면 프로필 이미지 화면이 나타나고, 채팅을 보낼 수 있다.",
+      describtion: [
+        "요즘 뜨고 있는 Lysn bubble을 클론코딩한 프로젝트입니다. 모바일 버전만 제공하기때문에, 550px 이상에서는 화면을 줄여달라는 화면만 표시되며, scss 패키지를 이용해서 css를 작성하였다. 프로필창에서 친구를 클릭하면 프로필 이미지 화면이 나타나고, 채팅을 보낼 수 있다.",
+      ],
       date: "2022-05-20",
       tool: ["React", "Sass", "react-live-clock", "netlify"],
       features: [
@@ -191,8 +219,9 @@ export const data = {
       filter: "ect",
       id: "lottecard",
       title: "롯데카드 프로모션",
-      describtion:
+      describtion: [
         "가정의 달을 맞아 롯데카드 기프트카드 판매 촉진 및 이벤트 홍보의 프로모션 페이지를 디자인하였다. 아기자기한 일러스트 이미지를 사용하여 사랑스러운 분위기를 표현하였으며, 롯데카드에서 자주 사용하는 핑크-블루 톤과 캐릭터를 사용하여 롯데카드 배너 느낌을 연출하였다.",
+      ],
       date: "2020-05-27",
       tool: ["Photoshop"],
       url: "https://github.com/hyemin12/react-dashboard-app2/blob/master/public/img/portfolio/lottecard2.jpg?raw=true",
@@ -201,8 +230,9 @@ export const data = {
       filter: "ect",
       id: "travel",
       title: "여행사 프로모션",
-      describtion:
+      describtion: [
         "여행 SNS 공유 이벤트 참여 촉진 및 홍보의 프로모션 페이지를 디자인하였다. 전체적인 컨셉을 부다페스트로 설정하여 부다페스트 관련 이미지들을 사용하였고,그랜드 부다페스트호텔 포스터에 사용된 핑크-보라계열 색을 사용하여 부다페스트 느낌을 연출하였다.",
+      ],
       date: "2020-03-20",
       tool: ["Photoshop"],
       url: "https://github.com/hyemin12/react-dashboard-app2/blob/master/public/img/portfolio/travel2.jpg?raw=true",
@@ -211,8 +241,9 @@ export const data = {
       filter: "jQuery",
       id: "melon",
       title: "음악스트리밍 멜론",
-      describtion:
+      describtion: [
         "인기차트가 사라진 멜론 음악 스트리밍 사이트를 리뉴얼하였다. 작게 나누어져있던 콘텐츠들을 크고 심플한 레이아웃에 맞춰 배치하였다. 또한 멜론 티켓과 연계하여 공연 배너 등 다양한 콘텐츠를 노출시키고자 하였다.",
+      ],
       date: "2020-07-21",
       tool: ["HTML", "CSS", "jQuery", "git-pahge", "Photoshop"],
       git: "https://github.com/hyemin12/web-design-portfolio/04Melon/",
@@ -223,8 +254,9 @@ export const data = {
       id: "responsive1",
       img: "responsive1-1",
       title: "반응형 사이트 - readOnly",
-      describtion:
+      describtion: [
         "html5up 사이트의 readOnly 마크업하였다. 각각 서브 페이지를 별도의 html 파일로 만들지 않고, tab 형태로 제작하였다.",
+      ],
       date: "2022-04-12",
       tool: ["HTML", "CSS", "Javascript", "git-pahge"],
       ect: "https://html5up.net/read-only",
@@ -236,8 +268,9 @@ export const data = {
       id: "responsive2",
       img: "responsive2-1",
       title: "반응형 사이트 - massively",
-      describtion:
+      describtion: [
         "html5up 사이트의 massively를 마크업하였다. 각각 서브 페이지를 별도의 html 파일로 만들지 않고, tab 형태로 제작하였다.",
+      ],
       date: "2022-04-12",
       tool: ["HTML", "CSS", "Javascript", "git-pahge"],
       ect: "https://html5up.net/massively",
@@ -249,7 +282,7 @@ export const data = {
       id: "responsive3",
       img: "responsive3-1",
       title: "반응형 사이트 - funny Flakes",
-      describtion: "flake 회사의 메인페이지를 마크업하였다.",
+      describtion: ["flake 회사의 메인페이지를 마크업하였다."],
       date: "2022-04-10",
       tool: ["HTML", "CSS", "Javascript", "git-pahge"],
       ect: "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbimORE%2FbtrE8N156Ne%2FEE9eIvq1Zd9k414O3vNH80%2Fimg.jpg",
@@ -261,8 +294,9 @@ export const data = {
       id: "responsive4",
       img: "responsive4-1",
       title: "반응형 사이트 - forty",
-      describtion:
+      describtion: [
         "forty 회사의 사이트를 마크업하였다. 서브페이지를 각각의 별도의 페이지로 분리해서 만들었고, 각각 페이지별로 css를 작성하였다.",
+      ],
       date: "2022-06-29",
       tool: ["HTML", "CSS", "git-pahge"],
       ect: "https://html5up.net/forty",
