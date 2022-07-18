@@ -59,7 +59,9 @@ const WorkDetail = () => {
 
         <div className={styles.pd_15}>
           <h2 className={styles.desc}>describtion</h2>
-          <p>{work.describtion}</p>
+          {work.describtion.map((i) => (
+            <p>{i}</p>
+          ))}
           {work.features && (
             <div className={styles.pd_15}>
               <h3 className={styles.subtitle}>기능</h3>
