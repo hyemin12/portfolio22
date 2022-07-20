@@ -39,7 +39,13 @@
   gap: 10px;
   /* width: 200px; */
 }
-
+.info_item_link {
+  text-decoration: underline wavy #fccb00;
+  transition: 0.3s;
+}
+.info_item_link:hover {
+  color: #fccb00;
+}
 /* Skills */
 .skill_wrapper {
   display: flex;

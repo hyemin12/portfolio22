@@ -29,6 +29,16 @@ const Info = () => {
             <span>👩‍🎓</span>
             <p>동우여자고등학교 졸업</p>
           </li>
+          <a
+            href="https://hyemin12.github.io/hm_resume/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <li className={styles.info_item}>
+              <span>🌞</span>
+              <p className={styles.info_item_link}>이력서 보러가기</p>
+            </li>
+          </a>
         </ul>
       </div>
     </div>
