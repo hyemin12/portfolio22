@@ -1,8 +1,8 @@
 import Info from "./Info";
-import Skills from "./Skills";
+import Skills from "../profile/Skills";
 
 import styles from "./Profile.module.css";
-import Experience from "./Experience";
+import Experience from "../profile/Experience";
 import TypeIt from "typeit-react";
 import classNames from "classnames";
 

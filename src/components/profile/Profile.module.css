@@ -1,50 +1,73 @@
+.wrapper {
+  padding: 2em;
+  border-top: 1px solid #eee;
+}
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+}
 .inner {
   display: flex;
   justify-content: center;
   text-align: center;
 }
-.wrapper {
-  padding: 40px 0;
-  border-top: 1px solid #eee;
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .title {
   font-size: 1.5em;
+  text-align: center;
   margin-bottom: 50px;
 }
+
+.rec_img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 2px 3px 5px 4px rgba(0, 0, 0, 0.1);
+}
+.bg {
+  width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1655012325185-9e4091a0481c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1112&q=80");
+  background-size: cover;
+  background-color: #fbeee7;
+  padding: 2.5em;
+}
+.name_wrapper {
+  padding: 1em 0;
+  color: #fff;
+  text-align: center;
+}
+
 .typeit {
   width: 100%;
   padding: 70px 0;
   font-size: 2em;
   line-height: 1.6;
 }
-.background {
-  width: 98vw;
-  height: 240px;
-  background-image: url("https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80");
-  background-position: center;
-}
 
 /* Info */
-.info_wrapper {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  flex-wrap: wrap;
-  padding: 0 20px;
-  max-width: 600px;
+.info {
+  padding: 2.5em 0;
+  text-align: center;
 }
-.info_item {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  /* width: 200px; */
-}
-.info_item_link {
-  text-decoration: underline wavy #fccb00;
+.link_btn {
+  width: 230px;
+  background-color: #ffffbb;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 0 auto;
   transition: 0.3s;
 }
-.info_item_link:hover {
-  color: #fccb00;
+.link_btn:hover {
+  background-color: #fccb00;
+  color: #fff;
 }
 /* Skills */
 .skill_wrapper {

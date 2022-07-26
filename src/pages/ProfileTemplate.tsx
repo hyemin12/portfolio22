@@ -1,11 +1,11 @@
 import Layout from "../components/Layout";
-import Profile from "../components/profile/Profile";
+import Profile2 from "../components/profile/Profile2";
 
 const ProfileTemplate = () => {
   return (
     <div>
       <Layout>
-        <Profile />
+        <Profile2 />
       </Layout>
     </div>
   );
