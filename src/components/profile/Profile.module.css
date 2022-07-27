@@ -44,12 +44,15 @@
   color: #fff;
   text-align: center;
 }
-
+.text_wrapper {
+  margin-bottom: 30px;
+}
 .typeit {
   width: 100%;
-  padding: 70px 0;
-  font-size: 2em;
+  padding: 20px 0;
+  font-size: 1.1em;
   line-height: 1.6;
+  margin-bottom: 20px;
 }
 
 /* Info */
