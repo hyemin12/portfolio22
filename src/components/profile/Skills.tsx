@@ -1,11 +1,16 @@
+import BoltIcon from "@mui/icons-material/Bolt";
 import styles from "./Profile.module.css";
 
 const Skills = () => {
   return (
     <div className={styles.wrapper}>
-      <h4 className={styles.title}>Skills</h4>
-      <div className={styles.skill_wrapper}>
-        <ul className={styles.skill_items}>
+      <h4 className={styles.title}>
+        <BoltIcon className={styles.title_icon} />
+        Skills
+      </h4>
+
+      <div className={styles.contents_wrapper}>
+        <ul className={styles.skills_wrapper}>
           <li>
             <svg
               role="img"

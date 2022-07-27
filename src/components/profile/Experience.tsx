@@ -1,3 +1,4 @@
+import BoltIcon from "@mui/icons-material/Bolt";
 import styles from "./Profile.module.css";
 
 const Experience = () => {
@@ -32,7 +33,10 @@ const Experience = () => {
 
   return (
     <div className={styles.wrapper}>
-      <h4 className={styles.title}>Experience</h4>
+      <h4 className={styles.title}>
+        <BoltIcon className={styles.title_icon} />
+        Experience
+      </h4>
       <div className={styles.exp_wrapper}>
         <ul className={styles.exp_items}>
           <>

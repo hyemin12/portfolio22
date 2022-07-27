@@ -20,11 +20,16 @@
   align-items: center;
 }
 .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.5em;
   text-align: center;
   margin-bottom: 50px;
 }
-
+.title_icon {
+  font-size: 0.8em !important;
+}
 .rec_img {
   width: 150px;
   height: 150px;
@@ -49,35 +54,64 @@
 }
 .typeit {
   width: 100%;
-  padding: 20px 0;
+  padding: 70px 0;
+  margin-bottom: 20px;
   font-size: 1.1em;
   line-height: 1.6;
-  margin-bottom: 20px;
-}
-
-/* Info */
-.info {
-  padding: 2.5em 0;
   text-align: center;
 }
-.link_btn {
-  width: 230px;
-  background-color: #ffffbb;
-  padding: 10px 20px;
-  border-radius: 20px;
-  margin: 0 auto;
-  transition: 0.3s;
-}
-.link_btn:hover {
-  background-color: #fccb00;
-  color: #fff;
-}
-/* Skills */
-.skill_wrapper {
+.contents_wrapper {
   display: flex;
   justify-content: center;
 }
-.skill_items {
+
+/* About */
+.about_wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.about_item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+.about_item_icon {
+  font-size: 1.05em;
+}
+.about_link {
+  text-decoration: underline dotted #777;
+}
+.about_link:hover {
+  text-decoration: underline solid #777;
+}
+.icon_effect {
+  animation-name: rainbow;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+@keyframes rainbow {
+  0% {
+    color: #ff2a2a;
+  }
+  25% {
+    color: #ff7a2a;
+  }
+  50% {
+    color: #ffbb00;
+  }
+  75% {
+    color: #43ff2a;
+  }
+  100% {
+    color: #2a89ff;
+  }
+}
+
+/* Skills */
+.skills_wrapper {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
