@@ -79,7 +79,7 @@
   margin-bottom: 20px;
 }
 .about_item_icon {
-  font-size: 1.05em;
+  font-size: 1.05em !important;
 }
 .about_link {
   text-decoration: underline dotted #777;
@@ -115,15 +115,15 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 30px;
-  width: calc((60px * 5) + (30px * 4));
+  gap: 35px;
+  width: calc((55px * 7) + (35px * 6));
 }
 .icon {
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
 }
 .text {
-  width: 60px;
+  width: 55px;
   font-size: 0.8em;
   text-align: center;
 }
