@@ -1,17 +1,23 @@
-.item {
+.list_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* 첫번째 아이템 커스텀 */
+.main_item {
   width: 100%;
   padding: 2em 3em;
   border-bottom: 2px solid #e2e2e2;
 }
-.date {
+.main_item_date {
   display: block;
   margin-bottom: 1.25em;
   color: #777;
   text-align: center;
   position: relative;
 }
-.date::before,
-.date::after {
+.main_item_date::before,
+.main_item_date::after {
   content: "";
   width: 40%;
   height: 2px;
@@ -19,13 +25,13 @@
   position: absolute;
   top: 50%;
 }
-.date::before {
+.main_item_date::before {
   left: 0;
 }
-.date::after {
+.main_item_date::after {
   right: 0;
 }
-.title {
+.main_item_title {
   display: block;
   padding: 30px 0;
   color: #333;
@@ -33,14 +39,9 @@
   text-align: center;
   line-height: 1;
 }
-.describtion {
+.main_item_describtion {
   margin-bottom: 2em;
   color: #333;
   text-align: center;
   line-height: 2em;
-  font-style: italic;
-}
-.contents_img {
-  display: flex;
-  justify-content: center;
 }

@@ -1,13 +1,17 @@
 import Layout from "../components/Layout";
-import Profile2 from "../components/profile/Profile2";
+import About from "../components/profile/About";
+import Skills from "../components/profile/Skills";
+import Experience from "../components/profile/Experience";
+import ProfileHeader from "../components/profile/ProfileHeader";
 
 const ProfileTemplate = () => {
   return (
-    <div>
-      <Layout>
-        <Profile2 />
-      </Layout>
-    </div>
+    <Layout>
+      <ProfileHeader />
+      <About />
+      <Skills />
+      <Experience />
+    </Layout>
   );
 };
 

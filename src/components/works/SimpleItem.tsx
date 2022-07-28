@@ -1,12 +1,11 @@
 import { Link } from "react-router-dom";
 import { WorkType } from "../../WorkType";
 
-import styles from "./WorkItem.module.css";
+import styles from "./SimpleItem.module.css";
 
-function WorkItem2(work: WorkType) {
+function SimpleItem(work: WorkType) {
   return (
     <li className={styles.item}>
-      <span className={styles.date}>{work.date}</span>
       <h2 className={styles.title}>
         [{work.filter}] {work.title}
       </h2>
@@ -18,14 +17,17 @@ function WorkItem2(work: WorkType) {
         />
       </div>
 
-      <p className={styles.describtion}>{work.describtion}</p>
-
       <div className={styles.btn_link}>
         <Link to={`/work/${work.id}`}>
           <button>자세히 보기</button>
         </Link>
+
+        <a href={work.url} target="_blank" rel="noreferrer">
+          <button>사이트 이동</button>
+        </a>
       </div>
     </li>
   );
 }
-export default WorkItem2;
+
+export default SimpleItem;

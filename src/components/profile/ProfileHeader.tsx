@@ -1,10 +1,7 @@
 import classNames from "classnames";
 import TypeIt from "typeit-react";
-import About from "./About";
-import Experience from "./Experience";
 import styles from "./Profile.module.css";
-import Skills from "./Skills";
-function Profile2() {
+function ProfileHeader() {
   return (
     <div>
       <div className={classNames(styles.wrapper, styles.bg)}>
@@ -27,8 +24,8 @@ function Profile2() {
         <TypeIt
           options={{
             strings: [
-              "안녕하세요. ",
-              "저는 웹디자이너를 꿈꾸며 웹을 공부하기 시작하였고, 프론트엔드 개발자를 꿈꾸는 고혜민입니다.",
+              "안녕하세요. 프론트엔드 개발자 고혜민입니다.",
+              "저는 웹디자이너를 꿈꾸며 웹을 공부하기 시작하였고, ",
               "꼼꼼하고 정리하는 것을 좋아하고, 성실함을 바탕으로 꾸준히 성장하는 것이 장점입니다.",
               "",
             ],
@@ -38,11 +35,8 @@ function Profile2() {
           }}
         />
       </div>
-      <About />
-      <Skills />
-      <Experience />
     </div>
   );
 }
 
-export default Profile2;
+export default ProfileHeader;

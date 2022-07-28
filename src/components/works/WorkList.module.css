@@ -1,0 +1,40 @@
+.list_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.category {
+  border-bottom: 2px solid #e2e2e2;
+  padding: 2em 0 3em 0;
+}
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.filter_item {
+  color: #333;
+  font-size: 1.1em;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.active {
+  color: #fccb00;
+  font-weight: bold;
+}
+.view_option {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  padding-top: 0.75em;
+  padding-bottom: 1em;
+  padding-right: 2em;
+  color: #777;
+  cursor: pointer;
+}
+.view_option_item.selected {
+  color: #333;
+}
+.filter_item:hover,
+.view_option_item:hover {
+  color: #fccb00;
+}

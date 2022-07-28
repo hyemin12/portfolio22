@@ -1,6 +1,23 @@
 .container {
   display: flex;
 }
+.bg {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://github.com/hyemin12/responsive-webstie-massively/blob/master/images/bg.jpg?raw=true");
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.main {
+  width: calc(100% - 4em);
+  background-color: #fff;
+  margin: 0 auto;
+  position: relative;
+}
 .btn_top {
   padding-bottom: 20px;
   color: #777;
